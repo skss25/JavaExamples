@@ -1,0 +1,2 @@
+# JavaExamples
+For Java study
