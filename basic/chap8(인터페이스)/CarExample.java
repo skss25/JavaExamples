@@ -12,6 +12,16 @@ public class CarExample {
 		myCar.frontRightTire=new KumhoTire();
 		
 		myCar.run();
+		System.out.println();
+		//369p 예제 : 인터페이스 배열로 구현 객체 관리
+		Car1 myCar1 = new Car1();
+		
+		myCar1.run();
+		
+		myCar1.tires[0] = new KumhoTire();
+		myCar1.tires[1] = new KumhoTire();
+		
+		myCar1.run();
 	}
 
 }
